@@ -1,0 +1,187 @@
+:root {
+    --navcolor: #FEF3E2;
+    --backroundcolor: #F4AE52;
+    --backroundcolor2: #D4621A;
+    --textcolor: #2A1A0E;
+}
+body {
+    background-color: var(--navcolor);
+    color: var(--backroundcolor);
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: rgba(254, 243, 226, 0.78);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    color: var(--textcolor);
+    padding: 12px 0;
+    margin: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.55);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.navcontent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+.logo {
+    display: inline-block;
+    height: 105px;
+    transition: transform 0.3s;
+}
+.logo:hover {
+    transform: scale(1.05);
+}
+.navlinks {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+.navlinks a{
+    display: inline-block;
+    text-decoration: none;
+    color: var(--textcolor);
+    font-size: 25px;
+    text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s;
+}
+.navlinks a:hover {
+    color: var(--backroundcolor);
+    transform: scale(1.05);
+}
+.topimage {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.employes {
+    text-align: center;
+    margin: 100px;
+    align-items: center;
+}
+.berapaemployes {
+    font-size: 80px;
+    color: var(--textcolor);
+    font-family: 'sans-serif';
+    text-shadow:  0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: transform 0.5s;
+}
+.berapaemployes:hover {
+    transform: scale(1.020);
+}
+.kontakk {
+    background-color: var(--backroundcolor);
+    color: var(--textcolor);
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: transform 0.5s;
+}
+.kontakk:hover {
+    transform: scale(1.05);
+}
+.idk {
+    background-color: var(--backroundcolor);
+    height: 1000px;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    padding: 50px;
+}
+.boxes {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    padding-left: 355px;
+}
+.box1 img {
+    transform: translatey(-100px);
+    border-radius: 30px;
+    border-bottom-right-radius: 0px;
+    transition: transform 0.5s;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.box1 img:hover {
+    transform: scale(1.05) translatex(-8px) translatey(-90px);
+}
+.box2 img {
+    border-radius: 30px;
+    border-top-left-radius: 0px;
+    transform: translatey(85px);
+    border-bottom-left-radius: 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: transform 0.5s;
+}
+.box2 img:hover {
+    transform: scale(1.05) translatex(8px) translatey(85px);
+}
+.boxes2 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 180px;
+    transform: translatex(-700px);
+}
+.box3 img {
+    transform: translatey(100px);
+    border-radius: 30px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: transform 0.5s;
+}
+.box3 img:hover {
+    transform: scale(1.05) translatex(-8px) translatey(100px);
+}
+.box4 img {
+    transform: translatex(349px);
+    border-radius: 30px;
+    border-top-left-radius: 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: transform 0.5s;
+}
+.box4 img:hover {
+    transform: scale(1.05) translatex(342px) translatey(0px);
+}
+.dk2 {
+    background: var(--navcolor);
+    height: 1000px;
+}
+.cairan {
+    width: 100%;
+    transform: translatey(-1px);
+}
+.kotakabout {
+    background-color: var(--backroundcolor);
+    width: 500px;
+    height: 400px;  
+    transform: translatex(500px) translatey(-300px);
+    border-radius: 30px;
+}
+.aboutus {
+    font-family:'Gill Sans MT';
+    background-color: #D4621A;
+    color: var(--textcolor);
+    padding: 20px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.apakek {
+    color: var(--textcolor);
+    font-family: '';
+    padding-left: 10px;
+}
+.dkjuga {
+    background-color: var(--textcolor);
+    height: 50px;
+}
+.contakali {
+    font-family: 'Gill Sans MT';
+}
